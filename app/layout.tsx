@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "VibeWarrior — Direct WordPress Access for AI Agents",
     description:
       "Run PHP inside WordPress and give AI agents direct access to WordPress functions, the database, and the filesystem.",
-    url: "https://vibewarrior.com",
+    url: "https://vibewarriors.netlify.app",
     siteName: "VibeWarrior",
     type: "website",
   },
