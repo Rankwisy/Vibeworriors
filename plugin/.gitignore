@@ -1,4 +1,4 @@
-vendor/
+# vendor/ is committed so the plugin works without composer install
 composer.lock
 *.log
 *.DS_Store

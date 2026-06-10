@@ -63,6 +63,7 @@ require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/connect-page.php';
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/sandbox-loader.php';
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/admin-access-link.php';
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/upload-link.php';
+require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/updater.php';
 
 // Abilities
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/abilities/discover-abilities.php';
@@ -77,6 +78,14 @@ require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/abilities/enable-file.php';
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/abilities/run-wp-cli.php';
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/abilities/create-admin-access-link.php';
 require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/abilities/create-upload-link.php';
+
+// Gutenberg abilities (optional — loaded only if Gutenberg is active)
+if (function_exists('register_block_type')) {
+    require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/abilities/gutenberg/bootstrap.php';
+}
+
+// Skills subsystem
+require_once VIBEWARRIOR_PLUGIN_DIR . 'includes/skills/bootstrap.php';
 
 // ---------------------------------------------------------------------------
 // MCP Adapter — initialise singleton and register REST routes
