@@ -11,6 +11,10 @@ export default function Footer() {
           <span className="text-sm text-white/30">Direct WordPress access for AI agents.</span>
         </div>
 
+        <p className="text-xs text-white/20">
+          &copy; {new Date().getFullYear()} Rankwise Data. All rights reserved.
+        </p>
+
         <div className="flex items-center gap-6">
           {[
             { label: "GitHub", href: "https://github.com/Rankwisy/vibepress" },
