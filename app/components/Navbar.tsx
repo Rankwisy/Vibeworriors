@@ -53,12 +53,14 @@ export default function Navbar() {
             GitHub
           </a>
           <a
-            href="https://github.com/Rankwisy/vibepress"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm px-4 py-2 rounded-lg bg-white text-black font-medium hover:bg-white/90 transition-colors"
+            href="https://github.com/Rankwisy/Vibeworriors/archive/refs/heads/master.zip"
+            download="vibewarrior-plugin.zip"
+            className="text-sm px-4 py-2 rounded-lg bg-white text-black font-medium hover:bg-white/90 transition-colors flex items-center gap-1.5"
           >
-            Get Started
+            <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 fill-black" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 16l-5-5h3V4h4v7h3l-5 5zm-7 2h14v2H5v-2z"/>
+            </svg>
+            Download Plugin
           </a>
         </div>
       </div>

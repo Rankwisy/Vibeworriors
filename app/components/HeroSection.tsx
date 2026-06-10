@@ -142,12 +142,14 @@ export default function HeroSection() {
             className="flex flex-wrap gap-3 mb-12"
           >
             <a
-              href="https://github.com/Rankwisy/vibepress"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 rounded-xl bg-white text-black font-semibold text-sm hover:bg-white/90 transition-all hover:scale-105 active:scale-95"
+              href="https://github.com/Rankwisy/Vibeworriors/archive/refs/heads/master.zip"
+              download="vibewarrior-plugin.zip"
+              className="px-6 py-3 rounded-xl bg-white text-black font-semibold text-sm hover:bg-white/90 transition-all hover:scale-105 active:scale-95 flex items-center gap-2"
             >
-              Get Started
+              <svg viewBox="0 0 24 24" className="w-4 h-4 fill-black" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 16l-5-5h3V4h4v7h3l-5 5zm-7 2h14v2H5v-2z"/>
+              </svg>
+              Download Plugin
             </a>
             <a
               href="https://github.com/Rankwisy/vibepress"
